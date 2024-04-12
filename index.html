@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/images/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nothing App</title>
+  </head>
+  <body class="relative">
+    <!-- Header  -->
+    <header class="py-4 fixed left-0 right-0 bg-secondary z-[999999999]">
+      <nav class="container mx-auto flex justify-between items-center px-4">
+        <a href="#" id='nav-link' class="logo">
+          <img src="/src/images/logo.svg" alt="logo" />
+        </a>
+        <ul class="hidden lg:flex items-center justify-evenly gap-x-6">
+          <li><a href="#products">Products</a></li>
+          <li><a href="#advantages">Advantages</a></li>
+          <li><a href="#gift">Gift Nothing 🔥</a></li>
+          <li><a href="#stories">Stories </a></li>
+          <li><a href="#faq">FAQ </a></li>
+        </ul>
+        <a
+          href="#"
+          class="hidden lg:block bg-primary text-white px-6 py-3 rounded-full"
+          >Get Nothing
+        </a>
+        <div id="menu" class="hamburger flex lg:hidden flex-col gap-2 cursor-pointer">
+          <span class="h-[2px] w-10 bg-primary"></span>
+          <span class="h-[2px] w-10 bg-primary"></span>
+          <span class="h-[2px] w-10 bg-primary"></span>
+        </div>
+      </nav>
+      <div id='mobile-nav' class="flex lg:hidden flex-col h-[100svh] w-[100svw] px-8 pt-12 pb-24 z-[999999] overflow-hidden transition-all duration-300 ">
+        <ul class="flex flex-col items-start gap-y-6  flex-grow">
+          <li><a id='nav-link' href="#products">Products</a></li>
+          <li><a id='nav-link' href="#advantages">Advantages</a></li>
+          <li><a id='nav-link' href="#gift">Gift Nothing 🔥</a></li>
+          <li><a id='nav-link' href="#stories">Stories </a></li>
+          <li><a id='nav-link' href="#faq">FAQ </a></li>
+        </ul>
+        <a
+        href="#"
+        class="bg-primary text-white px-8 py-4 rounded-full flex justify-center items-center gap-4"
+      >
+        <span> Get Nothing</span>
+        <i>
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.875 5.625L15.5344 6.93094L22.6406 14.0625H3.75V15.9375H22.6406L15.5344 23.0372L16.875 24.375L26.25 15L16.875 5.625Z"
+              fill="white"
+            ></path>
+          </svg>
+        </i>
+      </a>
+      </div>
+    </header>
+
+    <main class="bg-white overflow-clip">
+      <!-- hero  -->
+      <section class="hero w-svw bg-secondary">
+        <div
+          class="content container max-w-screen-lg mx-auto flex flex-col justify-center items-center pt-48 px-4 gap-10"
+        >
+          <h1
+            class="font-['Poppins'] text-[4rem] md:text-[6rem] lg:text-[12rem] leading-none tracking-tighter text-center"
+          >
+            Less is the new more
+          </h1>
+          <p class="text-center max-w-lg">
+            Instead of providing you with more things, we provide you with less.
+            We offer you a subscription to nothing.
+          </p>
+          <a
+            href="#"
+            class="bg-primary text-white px-8 py-4 rounded-full flex gap-4"
+          >
+            <span> Get Nothing</span>
+            <i>
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.875 5.625L15.5344 6.93094L22.6406 14.0625H3.75V15.9375H22.6406L15.5344 23.0372L16.875 24.375L26.25 15L16.875 5.625Z"
+                  fill="white"
+                ></path>
+              </svg>
+            </i>
+          </a>
+
+          <img src="/src/images/tags.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Products  -->
+      <section
+        id="products"
+        class="products rounded-2xl bg-white py-24 lg:py-32"
+      >
+        <div class="content container mx-auto max-w-screen-lg text-left px-4">
+          <h2 class="font-['Poppins'] text-[3rem] lg:text-[8rem]">Whaaat?</h2>
+          <p class="w-full lg:w-4/5">
+            You’re already signed up for a bunch of stuff, like streaming
+            services, software, and delivery apps. Honestly, it seems like you
+            have everything you need.
+          </p>
+          <div class="flex items-end gap-x-36 pb-24">
+            <div class="lg:w-3/5">
+              <h3
+                class="font-normal text-4xl lg:text-6xl py-8 tracking-wide leading-tight"
+              >
+                So, what else do you need to find happiness? Nothing.
+              </h3>
+              <p>
+                Rather than offering you more things or services, Nothing
+                suggests that you refrain from buying anything else. It’s about
+                taking a step back from the constant pressure to consume and
+                acquire, and finding joy in the things that really matter.
+              </p>
+            </div>
+            <img
+              src="/src/images/vector4.svg"
+              alt="vector 4"
+              class="hidden md:w-2/5"
+            />
+          </div>
+
+          <!-- cert  -->
+          <div class="bg-accent p-1 rounded-3xl">
+            <div class="flex gap-2 w-48 h-5 mx-4 my-2">
+              <span class="size-3 bg-secondary rounded-full"></span>
+              <span class="size-3 bg-secondary rounded-full"></span>
+              <span class="size-3 bg-secondary rounded-full"></span>
+            </div>
+            <img src="/src/images/cert.png" alt="" class="rounded-3xl p-1" />
+          </div>
+        </div>
+      </section>
+      <!-- Advantages -->
+
+      <section id="advantages" class="advantages py-16 lg:py-32 bg-white">
+        <div class="content max-w-screen-lg mx-auto px-4">
+          <h2 class="font-['Poppins'] text-[3rem] lg:text-[8rem]">Advantages</h2>
+          <p class="w-full lg:w-3/4">
+            Not a subscriber yet? There’s nothing stopping you! Read on for more
+            reasons why you should sign up.
+          </p>
+
+          <!-- grid containers  -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-24">
+            <!-- grid -->
+            <div
+              class="bg-accent rounded-3xl p-8 md:p-12 text-white space-y-12 flex flex-col justify-between items-start"
+            >
+              <h3 class="text-3xl md:text-4xl lg:text-5xl">Thoughtful gift</h3>
+              <p class="">
+                Give Nothing to yourself or to someone you appreciate more than
+                anything. This unique gift serves as a powerful reminder that
+                true happiness cannot be found in material possessions.
+              </p>
+              <img
+                src="/src/images/vector7.svg"
+                alt="vector7"
+                class="size-20 md:size-30"
+              />
+            </div>
+            <!-- grid -->
+            <div class="bg-secondary rounded-3xl p-8 md:p-12 space-y-10">
+              <h3 class="text-3xl md:text-4xl lg:text-5xl">Mindfulness</h3>
+              <p class="">
+                Nothing promotes a simpler and more mindful lifestyle.
+              </p>
+              <img
+                src="/src/images/vector8.svg"
+                alt="vector8"
+                class="size-20 md:size-30"
+              />
+            </div>
+            <!-- grid -->
+            <div class="bg-secondary rounded-3xl p-8 md:p-12 space-y-10">
+              <h3 class="text-3xl md:text-4xl lg:text-5xl">Sustainability</h3>
+              <p class="">
+                Nothing generates no physical waste or clutter, making it
+                beneficial for the environment.
+              </p>
+              <img
+                src="/src/images/vector6.svg"
+                alt="vector6"
+                class="size-20 md:size-30"
+              />
+            </div>
+            <!-- grid -->
+            <div class="bg-secondary rounded-3xl p-8 md:p-12 space-y-10">
+              <h3 class="text-3xl md:text-4xl lg:text-5xl">Freedom</h3>
+              <p class="">
+                We aren’t trying to make you spend more time and money on our
+                website. We have no idea what CTR, DAU, MAU, or retention rate
+                mean.
+              </p>
+              <img
+                src="/src/images/vector5.svg"
+                alt="vector5"
+                class="size-20 md:size-30"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-container space-y-2 lg:space-y-5">
+          <marquee behavior="scroll" direction="left" scrollamount="12">
+            <div class="space-x-16 py-4">
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >innovative</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >surprising</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">stylish</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >minimalist</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">premium</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >innovative</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >surprising</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">stylish</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >minimalist</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">premium</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+            </div>
+          </marquee>
+          <marquee behavior="scroll" direction="right" scrollamount="10">
+            <div class="space-x-16 py-4">
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >impressive</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">modern</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">refined</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">trendy</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">unique</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >impressive</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">modern</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">refined</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">trendy</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">unique</span>
+            </div>
+          </marquee>
+          <marquee behavior="scroll" direction="left" scrollamount="12">
+            <div class="space-x-16 py-4">
+              <span class="text-3xl lg:text-7xl font-['Poppins']">amazing</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >visionary</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >fashionable</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >incredible</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">awesome</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >phenomenal</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">amazing</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >visionary</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >fashionable</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >incredible</span
+              >
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']">awesome</span>
+              <span
+                class="inline-block size-5 mb-2 bg-secondary rounded-full"
+              ></span>
+              <span class="text-3xl lg:text-7xl font-['Poppins']"
+                >phenomenal</span
+              >
+            </div>
+          </marquee>
+        </div>
+      </section>
+      <!-- comparison -->
+
+      <section class="comparision bg-secondary py-20 lg:py-32">
+        <div class="content max-w-screen-lg mx-auto px-4">
+          <h2 class="font-['Poppins'] text-[3rem] lg:text-[8rem]">
+            Comparision
+          </h2>
+          <p class="w-full lg:w-3/4 mt-6">
+            What makes Nothing unique? Take a look at how we stand out from the
+            competition.
+          </p>
+        </div>
+        <div
+          class="mx-auto w-full lg:max-w-screen-xl overflow-auto py-16 px-4 md:px-0"
+        >
+          <div
+            class="table-container min-w-max bg-accent rounded-3xl shadow-md p-12 text-white text-2xl font-light"
+          >
+            <table border="1" width="100%" class="text-center">
+              <thead>
+                <tr class="border-b border-b-gray-100 border-opacity-35">
+                  <th></th>
+
+                  <th class="py-16">
+                    <div class="flex flex-col gap-2 font-normal">
+                      <span>Spotify</span><span class="">Apple Music</span>
+                    </div>
+                  </th>
+
+                  <th>
+                    <div class="flex flex-col gap-2 font-normal">
+                      <span>Netflix</span><span>Disney +</span><span>HBO</span
+                      ><span>Hulu</span>
+                    </div>
+                  </th>
+                  <th>
+                    <div class="flex flex-col gap-2 font-normal">
+                      <span>DoorDash</span><span>Love With Food</span
+                      ><span>HelloFresh</span>
+                    </div>
+                  </th>
+                  <th>
+                    <img src="/src/images/logo.svg" alt="logo" />
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-b-gray-100 border-opacity-35">
+                  <td class="px-8 pr-32 py-8">Music</td>
+                  <td class="px-8 py-8">Yes</td>
+                  <td class="px-8 py-8 text-opacity-60 text-gray-200">No</td>
+                  <td class="px-8 py-8 text-opacity-60 text-gray-200">No</td>
+                  <td class="px-8 py-8 text-opacity-60 text-gray-200">No</td>
+                </tr>
+                <tr class="border-b border-b-gray-100 border-opacity-35">
+                  <td class="px-8 pr-32 py-8">Video</td>
+                  <td class="px-8 py-8 text-opacity-60 text-gray-200">No</td>
+                  <td class="px-8 py-8">Yes</td>
+                  <td class="px-8 py-8 text-opacity-60 text-gray-200">No</td>
+                  <td class="px-8 py-8 text-opacity-60 text-gray-200">No</td>
+                </tr>
+                <tr>
+                  <td class="px-8 pr-32 py-8">Food</td>
+                  <td class="px-8 py-8 text-opacity-60 text-gray-200">No</td>
+                  <td class="px-8 py-8 text-opacity-60 text-gray-200">No</td>
+                  <td class="px-8 py-8">Yes</td>
+                  <td class="px-8 py-8 text-opacity-60 text-gray-200">No</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- gift nothing  -->
+      <section id="gift" class="py-16 lg:py-32 bg-white">
+        <div class="content max-w-screen-lg mx-auto space-y-3 px-4">
+          <h2 class="font-['Poppins'] text-[3rem] lg:text-[8rem]">
+            Gift Nothing
+          </h2>
+          <p class="py-6 lg:py-12 w-full lg:w-3/4">
+            Struggling to figure out what to give your friend, coworker, or that
+            relative you haven’t seen in years? Consider gifting Nothing. Show
+            how much you appreciate them, even if they need nothing.
+          </p>
+
+          <div class="py-12">
+            <a
+              href="#"
+              class="bg-primary text-white text-2xl px-8 py-6 rounded-full flex gap-4 w-64"
+            >
+              <span> Get Nothing</span>
+              <i>
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.875 5.625L15.5344 6.93094L22.6406 14.0625H3.75V15.9375H22.6406L15.5344 23.0372L16.875 24.375L26.25 15L16.875 5.625Z"
+                    fill="white"
+                  ></path>
+                </svg>
+              </i>
+            </a>
+          </div>
+
+          <div
+            class="gift-image-container relative bg-accent p-1 rounded-3xl mt-24"
+          >
+            <div class="absolute top-4 lg:top-8 -right-8 lg:right-10 z-10">
+              <p class="text-[8px] lg:text-2xl text-white uppercase rotate-45">
+                BestSeller
+              </p>
+            </div>
+            <div class="flex gap-2 w-48 h-5 mx-4 my-2">
+              <span class="size-3 bg-secondary rounded-full"></span>
+              <span class="size-3 bg-secondary rounded-full"></span>
+              <span class="size-3 bg-secondary rounded-full"></span>
+            </div>
+            <img
+              src="/src/images/vector3.svg"
+              alt=""
+              class="size-[100px] lg:size-[300px] absolute -top-10 lg:-top-24 -right-10 lg:-right-24 logo-spin"
+            />
+            <img src="/src/images/gift.png" alt="" class="rounded-3xl" />
+          </div>
+        </div>
+      </section>
+      <!-- success story  -->
+      <section id="stories" class="py-16 lg:py-32 bg-white">
+        <div class="content max-w-screen-lg mx-auto px-4">
+          <h2 class="font-['Poppins'] text-[3rem] lg:text-[8rem]">
+            Success Stories
+          </h2>
+          <div class="flex justify-between items-center">
+            <p>Discover how Nothing has changed subscribers’ lives.</p>
+            <div class="hidden md:flex items-center justify-between pb-4 gap-8">
+              <span class="cursor-pointer">
+                <img src="/src/images/vector20.svg" alt="" />
+              </span>
+              <span class="cursor-pointer">
+                <img src="/src/images/vector22.svg" alt="" />
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-white">
+        <div
+          class="testimonial py-12 lg:py-24 px-4 lg:px-64 flex gap-2 lg:gap-10 overflow-x-auto"
+        >
+          <!-- start testimonial -->
+          <div
+            class="testimonial-card bg-secondary min-w-[350px] lg:min-w-[550px] h-[400px] lg:h-fit rounded-3xl p-8 lg:p-16 space-y-12 flex flex-col justify-between items-start"
+          >
+            <img src="/src/images/vector10.svg" alt="" />
+            <p class="text-base lg:text-2xl flex-1">
+              Nothing has improved every part of my life. I received a promotion
+              at work, and my hair has never looked better. My ex-wife also came
+              back to me, although my current wife didn’t seem to appreciate it.
+            </p>
+
+            <figure class="flex items-center gap-x-2">
+              <img
+                src="/src/images/donald.jpg"
+                alt=""
+                class="size-16 rounded-full"
+              />
+              <div>
+                <figcaption class="text-2xl">Donald</figcaption>
+                <figcaption>Blogger</figcaption>
+              </div>
+            </figure>
+          </div>
+          <!-- end testimonial-card -->
+          <!-- start testimonial -->
+          <div
+            class="testimonial-card bg-secondary min-w-[350px] lg:min-w-[550px] h-[400px] lg:h-fit rounded-3xl p-8 lg:p-16 space-y-12 flex flex-col justify-between items-start"
+          >
+            <img src="/src/images/vector10.svg" alt="" />
+            <p class="text-base lg:text-2xl flex-1">
+              I’ve never seen such honest marketing before. I received exactly
+              what I was offered — nothing. It’s incredible!
+            </p>
+
+            <figure class="flex items-center gap-x-2">
+              <img
+                src="/src/images/emma.jpg"
+                alt=""
+                class="size-16 rounded-full"
+              />
+              <div>
+                <figcaption class="text-2xl">Emma</figcaption>
+                <figcaption>Mystery Shopper</figcaption>
+              </div>
+            </figure>
+          </div>
+          <!-- end testimonial-card -->
+          <!-- start testimonial -->
+          <div
+            class="testimonial-card bg-secondary min-w-[350px] lg:min-w-[550px] h-[400px] lg:h-fit rounded-3xl p-8 lg:p-16 space-y-12 flex flex-col justify-between items-start"
+          >
+            <img src="/src/images/vector10.svg" alt="" />
+            <p class="text-base lg:text-2xl flex-1">
+              Subscribing to Nothing made me realize that maybe I didn't need it
+              after all. I've never felt so smart.
+            </p>
+
+            <figure class="flex items-center gap-x-2">
+              <img
+                src="/src/images/stacy.jpg"
+                alt=""
+                class="size-16 rounded-full"
+              />
+              <div>
+                <figcaption class="text-2xl">Stacy</figcaption>
+                <figcaption>Philanthropist</figcaption>
+              </div>
+            </figure>
+          </div>
+          <!-- end testimonial-card -->
+          <!-- start testimonial -->
+          <div
+            class="testimonial-card bg-secondary min-w-[350px] lg:min-w-[550px] h-[400px] lg:h-fit rounded-3xl p-8 lg:p-16 space-y-12 flex flex-col justify-between items-start"
+          >
+            <img src="/src/images/vector10.svg" alt="" />
+            <p class="text-base lg:text-2xl flex-1">
+              Great — another monthly bill to add to the list of things I’ll
+              forget to cancel. Thanks!
+            </p>
+
+            <figure class="flex items-center gap-x-2">
+              <img
+                src="/src/images/phil.jpg"
+                alt=""
+                class="size-16 rounded-full"
+              />
+              <div>
+                <figcaption class="text-2xl">Phil</figcaption>
+                <figcaption>Famous Singer</figcaption>
+              </div>
+            </figure>
+          </div>
+          <!-- end testimonial-card -->
+          <!-- start testimonial -->
+          <div
+            class="testimonial-card bg-secondary min-w-[350px] lg:min-w-[550px] h-[400px] lg:h-fit rounded-3xl p-8 lg:p-16 space-y-12 flex flex-col justify-between items-start"
+          >
+            <img src="/src/images/vector10.svg" alt="" />
+            <p class="text-base lg:text-2xl flex-1">
+              I gave my boss a subscription, and he said it was cooler than the
+              yacht he bought last year. My only complaint is that he didn’t
+              give me a yacht in return.
+            </p>
+
+            <figure class="flex items-center gap-x-2">
+              <img
+                src="/src/images/alex.jpg"
+                alt=""
+                class="size-16 rounded-full"
+              />
+              <div>
+                <figcaption class="text-2xl">Alex</figcaption>
+                <figcaption>Ship Captain</figcaption>
+              </div>
+            </figure>
+          </div>
+          <!-- end testimonial-card -->
+        </div>
+      </section>
+
+      <section class="quote bg-secondary py-16 lg:py-32">
+        <div
+          class="content max-w-screen-lg mx-auto flex flex-col md:flex-row gap-10 lg:gap-20 px-4"
+        >
+          <img src="/src/images/vector23.svg" alt="" class="size-12" />
+          <div>
+            <p>
+              There's no such thing as nothing. In every nothing, there's a
+              something. In fact, there could be everything!
+            </p>
+            <figcaption>Libba Bray</figcaption>
+          </div>
+        </div>
+      </section>
+
+      <!-- faq  -->
+      <section id="faq" class="faq py-16 lg:py-32 bg-white">
+        <div
+          class="content max-w-screen-lg mx-auto flex flex-col lg:flex-row justify-between items-start px-4"
+        >
+          <h2 class="font-['Poppins'] text-[3rem] lg:text-[8rem] w-3/5">FAQ</h2>
+
+          <div class="pt-20">
+            <details class="py-5 border-b border-b-gray-300 border-opacity-65">
+              <summary>It’s a joke, right?</summary>
+              <p>
+                No. We are seriously counting on your money and have already
+                taken out a loan for a new car.
+              </p>
+            </details>
+            <details class="py-5 border-b border-b-gray-300 border-opacity-65">
+              <summary>What will the money be used for?</summary>
+              <p>
+                We <a> donate 50% of our profits</a> to charitable foundations
+                worldwide. However, supporting charity is not our main goal. If
+                your main objective is to support charity, it may be more
+                effective for you to directly donate to a foundation of your
+                choice.
+              </p>
+            </details>
+            <details class="py-5 border-b border-b-gray-300 border-opacity-65">
+              <summary>Do you have a family subscription to Nothing?</summary>
+              <p>
+                There’s nothing better than sharing with family, and we hope to
+                offer a family subscription in the future. However, at the
+                moment, we have a limited supply of Nothing.
+              </p>
+            </details>
+            <details class="py-5 border-b border-b-gray-300 border-opacity-65">
+              <summary>
+                How do I update or cancel my subscription to Nothing?
+              </summary>
+              <p>
+                Log in to PayPal, then go to Settings and click the Payments
+                tab. Then, click Manage Automatic Payments and select the
+                merchant. Check out detailed instructions
+                <a href="">from PayPal here.</a>
+              </p>
+            </details>
+            <details class="py-5 border-b border-b-gray-300 border-opacity-65">
+              <summary>What if I have additional questions?</summary>
+              <p>
+                Feel free to email us your questions at
+                <a href="">service@getnothing.app</a>
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- are you ready  -->
+
+      <section
+        class="bg-secondary relative rounded-t-[50px] lg:rounded-t-[150px] py-16 lg:py-32 overflow-hidden mb-[700px]"
+      >
+        <img
+          src="/src/images/vector.svg"
+          alt=""
+          class="absolute top-56 -right-[25%] -z-[1]"
+        />
+        <div class="content max-w-screen-lg mx-auto px-4">
+          <h1 class="font-['Poppins'] text-[3rem] lg:text-9xl">
+            Are you ready to get Nothing?
+          </h1>
+          <p class="py-16 text-xl lg:text-2xl">
+            We’ll write a terrific call to action here when we have enough money
+            to hire a marketer. For now, we’ll just tell you to subscribe.
+          </p>
+          <a
+            href="#"
+            class="bg-primary text-white px-8 py-4 rounded-full flex gap-4 w-64"
+          >
+            <span> Get Nothing</span>
+            <i>
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.875 5.625L15.5344 6.93094L22.6406 14.0625H3.75V15.9375H22.6406L15.5344 23.0372L16.875 24.375L26.25 15L16.875 5.625Z"
+                  fill="white"
+                ></path>
+              </svg>
+            </i>
+          </a>
+        </div>
+
+        <div
+          class="pt-16 max-w-screen-lg mx-auto flex flex-col md:flex-row justify-between items-start px-4"
+        >
+          <div class="w-full lg:w-1/3">
+            <p class="">
+              Companies to which we applied for employment before starting
+              Nothing
+            </p>
+            <p class="text-sm">(we are not affiliated with these brands)</p>
+          </div>
+
+          <div class="brand-image-container grid grid-cols-3 place-items-start">
+            <img src="/src/images/vector14.svg" alt="" />
+            <img src="/src/images/vector15.svg" alt="" />
+            <img src="/src/images/vector12.svg" alt="" />
+            <img src="/src/images/vector16.svg" alt="" />
+            <img src="/src/images/vector13.svg" alt="" />
+            <img src="/src/images/vector11.svg" alt="" />
+          </div>
+        </div>
+        <!-- <div class='h-12 w-full bg-black absolute bottom-0 left-0 z-50'></div> -->
+      </section>
+
+      <footer
+        class="bg-black text-white fixed bottom-0 left-0 right-0 h-[800px] -z-40 pt-56 pb-12"
+      >
+        <div
+          class="content max-w-screen-lg mx-auto h-[400px] hidden lg:flex justify-between"
+        >
+          <div class="w-1/2 flex flex-col justify-between">
+            <p>
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Nothing
+            </p>
+            <p class="flex-grow flex-1">
+              What else do you need to attain complete happiness? Nothing.
+            </p>
+
+            <div class="flex items-center gap-x-4">
+              <p class="mb-0">Made with</p>
+              <a href="#">
+                <img src="/src/images/vector18.svg" alt="" />
+              </a>
+              <p class="mb-0">in Georgia</p>
+            </div>
+          </div>
+          <ul class="flex flex-col">
+            <li><a href="">Get Nothing</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li class="flex-1"><a href="">Charity</a></li>
+            <li><a href="">Terms</a></li>
+          </ul>
+          <ul class="flex flex-col">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li class="flex-1"><a href="#">Twitter</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+
+        <!-- mobile only  -->
+        <div
+          class="content max-w-screen-lg mx-auto h-[400px] flex lg:hidden flex-col justify-between px-4"
+        >
+          <ul class="flex flex-col gap-y-2 flex-1">
+            <li><a href="">Contact Us</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="">Charity</a></li>
+          </ul>
+          <div class="flex flex-col justify-between">
+            <div class="flex items-center gap-x-4">
+              <p class="mb-0">Made with</p>
+              <a href="#">
+                <img src="/src/images/vector18.svg" alt="" />
+              </a>
+              <p class="mb-0">in Georgia</p>
+            </div>
+            <p>
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Nothing
+            </p>
+          </div>
+        </div>
+        <p
+          class="border-t border-gray-100 border-opacity-45 mt-8 py-2 text-center"
+        >
+          Powered by Frebbytech Consults
+        </p>
+        <p class="text-center text-secondary">
+          Inspired by <a href="https://getnothing.app/">Get Nothing </a>
+        </p>
+      </footer>
+   
+   <div id="scroll-btn" class=" fixed bottom-32 right-8 size-12 flex items-center justify-center bg-secondary rounded-full cursor-pointer border border-black">
+    <img src="/src/images/vector20.svg" alt="" class="rotate-90 fill-white">
+   </div>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
